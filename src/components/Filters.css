@@ -1,5 +1,8 @@
 .filters {
   display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
   font-weight: 500;
@@ -8,4 +11,10 @@
 .filters > div {
   display: flex;
   gap: 1rem;
+}
+
+@media (max-width: 500px) {
+  .filters {
+    justify-content: center;
+  }
 }
