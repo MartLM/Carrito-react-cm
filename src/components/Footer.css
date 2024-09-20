@@ -14,7 +14,9 @@
 .footer span {
   font-size: 14px;
   color: #09f;
+  padding-left: 2px;
 }
+
 
 .footer h4, .footer h5 {
   margin: 0;

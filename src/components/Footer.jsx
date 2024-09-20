@@ -8,15 +8,9 @@ export function Footer () {
 
   return (
     <footer className='footer'>
-      {
-        JSON.stringify(filters, null, ' ')
-      }
-      {/* {
-        JSON.stringify(cart, null, ' ')
-      } */}
-      {/* <h4>Filtros activos - </h4>
+      <h4>Filtros activos: {filters.category}, {filters.minPrice} </h4>
       <h5>Shopping cart con useContext & reducer</h5>
-      <h5>Un proyecto del curso de <span>@midudev</span></h5> */}
+      <h5>Un proyecto del curso de <span>@midudev</span></h5>
     </footer>
   )
 }

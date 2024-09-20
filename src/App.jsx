@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 
 const fetchProduct = async () => {
   try {
-    const res = await fetch('https://dummyjson.com/products?limit=12')
+    const res = await fetch('https://dummyjson.com/products?limit=0')
     const json = await res.json()
     return json.products
   } catch (e) {
